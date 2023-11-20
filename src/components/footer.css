@@ -1,0 +1,88 @@
+.footer {
+    background-color:whitesmoke;
+    color: #1b1a1a;
+    height: 15vh;
+    padding: 1rem 2rem;
+    text-align: center;
+   
+
+  }
+  
+  .social-icons {
+    margin-top: 2px;
+
+  }
+  
+  .social-icons a {
+    color: #181717;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(72, 255, 0); /* Change the color on hover if desired */
+  }
+  p{
+    font-size: 15px;
+  }
+  @media screen and (max-width:700px){
+    .footer {
+      background-color:whitesmoke;
+      color: #1b1a1a;
+      height: 20vh;
+      padding: 1rem 2rem;
+      text-align: center;
+    
+  
+    }
+    
+    .social-icons {
+      margin-top: 10px;
+  
+    }
+    
+    .social-icons a {
+      color: #181717;
+      margin: 0 10px;
+      font-size: 30px;
+      text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+      color: rgb(72, 255, 0); /* Change the color on hover if desired */
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (min-width:700px) and (max-width:1150px){
+    .footer {
+      background-color:whitesmoke;
+      color: #1b1a1a;
+      height: 20vh;
+      padding: 1rem 2rem;
+      text-align: center;
+   
+  
+    }
+    
+    .social-icons {
+      margin-top: 10px;
+  
+    }
+    
+    .social-icons a {
+      color: #181717;
+      margin: 0 10px;
+      font-size: 40px;
+      text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+      color: rgb(72, 255, 0); /* Change the color on hover if desired */
+    }
+    p{
+      font-size: 20px;
+    }
+  }

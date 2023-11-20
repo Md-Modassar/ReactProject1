@@ -1,0 +1,173 @@
+.main{
+   background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1284923/1360/906/m1/fpnw/wm1/jkqdp16z2jmoen2sx9yy1hjiaxmjjm96tvlnymyadqphd2aw6akvks5rsgc3ekjh-.jpg?1463606365&s=a5b6ca125d01b9f7f46a9eecb31c02aa");
+   background-size:cover; /* Adjust as needed */
+   background-position: bottom; /* Adjust as needed */
+   background-repeat: no-repeat;
+   align-items: center;
+   height: 175vh;
+
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-around;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    align-items: center;
+  
+}
+.card-item{
+    height: 50vh;
+    width: 40vh;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+ .image{
+    height: 30vh;
+    width: 38vh;
+    object-fit: cover;
+    border-radius: 10px;
+
+   
+ }
+
+ h1{
+    margin: 10px;
+    color: rgb(9, 87, 19);
+    font-size: 18px;
+    
+ }
+
+ h3{
+    margin: 15px;
+    font-size: 25px;
+    color: rgb(9, 239, 44);
+
+ }
+ .menu{
+   margin: 10px;
+   color: rgb(246, 52, 52);
+   text-align: center;
+   font-size: 60px;
+ }
+ .flo{
+   align-items: center;
+   
+ }
+ .im1{
+   height: 20vh;
+   width: 20vh;
+   margin-left: 80vh;
+ }
+ .im2{
+   height: 20vh;
+   width: 20vh;
+ }
+
+ @media screen and (max-width:700px){
+
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr   ;
+        justify-content: space-around;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        align-items: center;
+    
+    }
+
+    .card-item{
+        height: 30vh;
+        width: 15vh;
+        background-color: antiquewhite;
+        margin-left:1px;
+        padding:1px;
+        border-radius: 5px;
+        margin-right: 2px;
+        align-items: center;
+        
+    
+    }
+
+    .image{
+        height: 15vh;
+        width: 14vh;
+        object-fit: cover;
+        border-radius: 10px;
+        
+
+    
+       
+     }
+    
+     h1{
+        margin: 5px;
+        color: rgb(3, 88, 15);
+        font-size: 15px;
+     }
+    
+     h3{
+        margin: 10px;
+        font-size: 20px;
+        color: rgb(13, 240, 47);
+    
+     }
+     .menu{
+      margin: 10px;
+      color: rgb(246, 52, 52);
+      text-align: center;
+      font-size: 50px;
+    }
+   
+
+ }
+
+ @media screen and (min-width:700px) and (max-width:1150px) {
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1f   ;
+        justify-content: space-around;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        align-items: center;
+    
+    }
+
+    .card-item{
+        height: 48vh;
+        width: 38vh;
+        background-color: antiquewhite;
+        margin: 2px;
+        padding: 1px;
+        border-radius: 5px;
+        
+    
+    }
+
+    .image{
+        height: 30vh;
+        width: 38vh;
+        object-fit: cover;
+        border-radius: 10px;
+    
+       
+     }
+    
+     h1{
+        margin: 10px;
+        color: rgb(3, 88, 15);
+        font-size: 20px;
+     }
+    
+     h3{
+        margin: 15px;
+        font-size: 18px;
+        color: rgb(11, 228, 44);
+    
+     }
+
+ }

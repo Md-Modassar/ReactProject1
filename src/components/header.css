@@ -1,0 +1,495 @@
+.header{
+    background-image: url("https://img.freepik.com/premium-photo/hamburger-with-cheese-tomato-lettuce-it_608068-15437.jpg");
+    background-size:cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; 
+    height: 80vh;
+    width: 200vh;
+    width: auto;
+    margin-top: 10px;
+    justify-items: auto;
+    overflow: auto;
+}
+
+.header h1{
+   color: rgb(116, 196, 242);
+   padding-top:10px;
+   font-size: 55px;
+   word-spacing: 8px;
+   letter-spacing: 8px;
+   margin-top: 4rem;
+   margin-left: 8rem;
+   
+   
+}
+
+.s{
+  color: rgb(247, 47, 33)
+}
+
+
+
+h4{
+    font-size: 20px;
+    margin-left: 4rem;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    color:white;
+    margin-top: 1rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    text-decoration: none;
+    height: 4rem;
+    width: 10rem;
+    align-items: center;
+    color: white;
+    background-color: rgb(247, 7, 7);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+
+}
+
+h5{
+    color: rgb(22, 22, 22);
+    font-size: 22px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+h5:hover {
+    color: rgb(244, 236, 236);
+    font-size: 25px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.three{
+   
+    margin-left: 1px;
+    padding: 10px;
+    background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1284923/1360/906/m1/fpnw/wm1/jkqdp16z2jmoen2sx9yy1hjiaxmjjm96tvlnymyadqphd2aw6akvks5rsgc3ekjh-.jpg?1463606365&s=a5b6ca125d01b9f7f46a9eecb31c02aa");
+    background-size:cover; /* Adjust as needed */
+    background-position: bottom; /* Adjust as needed */
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.three-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-bottom: 40px ;
+    margin-left: 30px;
+
+}
+.three-item{
+    height: 65vh;
+    width: 50vh;
+    background-color: rgb(218, 208, 208);
+    border-radius: 10px;
+    text-align: center;
+}
+.im{
+    height: 30vh;
+    width: 49vh;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+p{
+    color: rgb(39, 36, 36);
+    font-size: 15px;
+
+}
+.item-name{
+    color: black;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.item-btn{
+    text-decoration: none;
+    border: none;
+    height: 3.5rem;
+    width: 40vh;
+    margin: 10px;
+    font-size: 25px;
+    background-color: rgb(247, 7, 7);
+    border-radius: 15px;
+
+}
+
+h6{
+    color: silver;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1rem;
+}
+
+h2{
+    color: rgb(247, 7, 7);
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.flower{
+    display: flex;
+    flex-direction: row;
+  
+}
+.img1{
+    position: start;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+
+}
+.img2{
+    margin-left: 140vh;
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+.img3{
+    margin-left: 75vh;
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width:700px) {
+    .header h1{
+        color: rgb(116, 196, 242);
+        padding-top:4px;
+        font-size: 40px;
+        word-spacing: 7px;
+        letter-spacing: 7px;
+        margin-top: 3rem;
+        margin-left: 6rem; 
+        
+     }
+    
+     .s{
+        color: rgb(247, 7, 7)
+      }
+      
+      h4{
+        font-size: 20px;
+        margin-left: 2rem;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        color: rgb(243, 247, 246);
+        margin-top: 1rem;
+    }
+
+    .btn{
+        text-decoration: none;
+        height: 3rem;
+        width: 8rem;
+        align-items: center;
+        color: white;
+        background-color: rgb(247, 7, 7);
+        border-radius: 6px;
+        font-size: 15px;
+        margin-left: 3rem;
+        margin-top: 4rem;
+        cursor: pointer;
+        border: none;
+    
+    }
+    
+    h5{
+        color: greenyellow;
+        font-size: 20px;
+        margin-top: 4.5rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+    }
+
+    h5:hover{
+        color: rgb(247, 242, 242);
+        font-size: 15px;
+        margin-top: 4.5rem;
+        margin-left: 3rem;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+    }
+    .three{
+   
+        margin-left: 1px;
+        padding: 5px;
+        
+     
+    }
+    .three-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-left: 1px;
+        align-items: center;
+    
+    }
+    .three-item{
+        height: 38vh;
+        width: 15vh;
+        background-color: rgb(218, 208, 208);
+        border-radius: 10px;
+        text-align: center;
+        margin: 1px;
+       
+    }
+    .im{
+        height: 16vh;
+        width: 14vh;
+        margin: 1px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    p{
+        color: rgb(39, 36, 36);
+        font-size: 8.7px;
+    
+    }
+    .item-name{
+        color: black;
+        font-size: 10px;
+        font-weight: 2000;
+    }
+    
+    .item-btn{
+        text-decoration: none;
+        border: none;
+        height: 3vh;
+        width: 13vh;
+        font-size: 10px;
+        background-color: rgb(247, 7, 7);
+        border-radius: 5px;
+    
+    }
+    
+    h6{
+        color: silver;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+    
+    h2{
+        color: rgb(247, 7, 7);
+        text-align: center;
+        font-size: 40px;
+        font-style: italic;
+    }
+    
+    .flower{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      
+    }
+    .img1{
+        margin-left: 30px;
+        height: 7rem;
+        width: 7rem;
+        object-fit: cover;
+    
+    }
+    .img2{
+        margin-left: 0px;
+        height: 7rem;
+        width: 7rem;
+        object-fit: cover;
+    }
+    .img3{
+        margin-left:100px;
+        height: 9rem;
+        width: 9rem;
+        object-fit: cover;
+    }
+    
+    
+    
+    
+}
+
+
+@media screen and (min-width:700px) and (max-width:1150px) {
+    .header h1{
+        color: rgb(116, 196, 242);
+        padding-top:5px;
+        font-size: 45px;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        margin-top: 2rem;
+        margin-left: 6rem;
+     }
+
+     .s{
+        color: rgb(247, 7, 7)
+      }
+      
+      h4{
+        font-size: 20px;
+        margin-left: 2rem;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        color: rgb(243, 247, 246);
+        margin-top: 1rem;
+    }
+
+    .btn{
+        text-decoration: none;
+        height: 4rem;
+        width: 9rem;
+        align-items: center;
+        color: white;
+        background-color: rgb(247, 7, 7);
+        border-radius: 8px;
+        font-size: 15px;
+        margin-left: 6rem;
+        margin-top: 3rem;
+        cursor: pointer;
+        border: none;
+    
+    }
+    
+    h5{
+        color: greenyellow;
+        font-size: 20px;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+    }
+
+    h5:hover{
+        color: rgb(243, 242, 242);
+        font-size: 16px;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .three{
+        padding: 2px;
+        
+     
+    }
+    .three-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+        margin-top: 0px;
+        margin-left: 100px;
+        padding-top: 20px;
+        margin-right: 100px;
+
+        
+    
+    
+    }
+    .three-item{
+        height: 60vh;
+        width: 38vh;
+        background-color: rgb(218, 208, 208);
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 10px;
+        margin: 1px;
+        
+    }
+    .im{
+        height: 30vh;
+        width: 37vh;
+        margin: 2px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    p{
+        color: rgb(39, 36, 36);
+        font-size: 11px;
+    
+    }
+    .item-name{
+        color: black;
+        font-size: 20px;
+        font-weight: 2000;
+    }
+    
+    .item-btn{
+        text-decoration: none;
+        border: none;
+        height: 2.5rem;
+        width: 30vh;
+        margin: 5px;
+        font-size: 15px;
+        background-color: rgb(247, 7, 7);
+        border-radius: 10px;
+        margin-top: 30px;
+    
+    }
+    
+    h6{
+        color: silver;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+    
+    h2{
+        color: rgb(247, 7, 7);
+        text-align: center;
+        font-size: 50px;
+        font-style: italic;
+    }
+    
+    .flower{
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .img1{
+        margin-left: 200px;
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+    
+    }
+    .img2{
+        margin-left: 100px;
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+    }
+    .img3{
+        margin-left: 55vh;
+        height: 15rem;
+        width: 15rem;
+        object-fit: cover;
+    }
+    
+}
+
+
+
